@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* body{
+    width: 1440px;
+    height: 3300px;;
+    background-color: aliceblue;
+
+} */
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 80px;
+}
+.header-menu2 > a {
+  margin-left: 20px;
+  color: #555555;
+  justify-content: space-between;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.hamburger {
+  display: none;
+}
+/* HEADER */
+
+/* ALLIEN CONTAINER */
+.container{
+    margin: 70px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px rebeccapurple solid; */
+    
+    /* align-items: center; */
+}
+section{
+    /* border: 2px rebeccapurple solid; */
+}
+.p-container{
+    font-size: 70px;
+    font-weight: 1000;
+    margin: 3rem 0rem;
+}
+.container img{
+    /* border: 2px rebeccapurple solid; */
+    justify-self: end;
+    height: 500px;
+    margin-right: 4rem;
+}
+.description{
+    font-size: large;
+    color: #555555;
+}
+.signup{
+    font-size: large;
+    height: 4rem;
+    width: 10rem;
+    margin-top: 2rem;
+    border:3px solid #0000;
+    border-radius:30px;
+    background-color: white;
+    background:
+      linear-gradient(white,white) padding-box,
+      linear-gradient(#e65f11,#c928a1,#e65f11,#e61f11) border-box; 
+}
