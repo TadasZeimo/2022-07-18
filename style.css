@@ -2,18 +2,14 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* body{
-    width: 1440px;
-    height: 3300px;;
-    background-color: aliceblue;
-
-} */
+body {
+  margin: 50px 300px;
+}
 
 /* HEADER */
 header {
   display: flex;
   justify-content: space-between;
-  margin: 70px 80px;
 }
 .header-menu2 > a {
   margin-left: 20px;
@@ -22,47 +18,145 @@ header {
   text-decoration: none;
   font-size: 1.4rem;
 }
+.header-menu {
+  list-style: none;
+}
 .hamburger {
   display: none;
 }
-/* HEADER */
 
 /* ALLIEN CONTAINER */
-.container{
-    margin: 70px 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* border: 2px rebeccapurple solid; */
-    
-    /* align-items: center; */
+.nft-allien {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
 }
-section{
-    /* border: 2px rebeccapurple solid; */
+
+.p-allien {
+  font-size: 70px;
+  font-weight: 1000;
+  margin: 3rem 0rem;
 }
-.p-container{
-    font-size: 70px;
-    font-weight: 1000;
-    margin: 3rem 0rem;
+.nft-allien img {
+  justify-self: end;
+  height: 500px;
+  margin-right: 4rem;
 }
-.container img{
-    /* border: 2px rebeccapurple solid; */
-    justify-self: end;
-    height: 500px;
-    margin-right: 4rem;
+.description {
+  font-size: large;
+  color: #555555;
 }
-.description{
-    font-size: large;
-    color: #555555;
+.signup {
+  font-size: large;
+  font-weight: 900;
+  height: 4rem;
+  width: 10rem;
+  margin-top: 2rem;
+  border: 4px solid #0000;
+  border-radius: 30px;
+  background-color: white;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to left, #63da73, #f89008 5%, #dd4674) border-box;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
-.signup{
-    font-size: large;
-    height: 4rem;
-    width: 10rem;
-    margin-top: 2rem;
-    border:3px solid #0000;
-    border-radius:30px;
-    background-color: white;
-    background:
-      linear-gradient(white,white) padding-box,
-      linear-gradient(#e65f11,#c928a1,#e65f11,#e61f11) border-box; 
+.signup:hover {
+  color: #63aeda;
+}
+/* UPSELL */
+.earlybirds {
+  border-radius: 1rem;
+  padding: 5rem 2rem 2rem;
+  background-image: url(assets/background.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.p1 {
+  font-size: xx-large;
+}
+/* PRESS */
+.flex-container {
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+/* SHOWCASE */
+
+.showcase p,
+a {
+  font-size: large;
+  color: #555555;
+}
+.card {
+  width: max-content;
+  background-color: #f1ecec;
+  border-radius: 1rem;
+  margin-top: 4rem;
+}
+.tex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 1rem;
+}
+.tex h3 {
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+.right-text-item {
+  display: flex;
+  justify-content: end;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+/* GIRL CONTAINER */
+.nft-girl {
+  margin: 5rem auto;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: #dad3d3 solid;
+  border-bottom: #dad3d3 solid;
+}
+.p-girl {
+  font-size: 3rem;
+  font-weight: 1000;
+  margin: 2rem 0rem;
+}
+.girl {
+  margin-right: 15rem;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.right-bar {
+  width: 500px;
+  height: min-content;
+  display: flex;
+  justify-content: space-around;
+}
+.right-bar h5 {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+.right-bar a {
+  text-decoration: none;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+}
+.right-bar a:hover {
+  color: #63aeda;
+}
+.additional-info {
+  margin: 4rem auto -2rem;
+  color: #555555;
+  display: flex;
+  justify-content: space-between;
 }
